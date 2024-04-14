@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ovapal/screens/home.dart';
+import 'package:ovapal/screens/navbar.dart';
 
-import 'screens/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
         useMaterial3: true,
       ),
-      home: Homepage(),
+      home: Navigation(),
     );
   }
 }
